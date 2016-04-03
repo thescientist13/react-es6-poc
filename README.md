@@ -7,9 +7,9 @@ ES6 only features so as to be as forward compatible as possible.
 ## Setup
 1. Clone the project
 2. Install project dependencies `npm install`
-3. Install a simple webserver `npm install -g http-server`
+3. Install a simple webserver `npm install -g lite-server`
 
 ## Running the Application
 1. Run `gulp build`
-2. Run `http-server`
+2. Run `npm run serve`
 3. Open `localhost:8080` in your browser

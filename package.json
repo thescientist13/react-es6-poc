@@ -4,7 +4,7 @@
   "description": "A POC project to test out React and ES6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "babelify": "7.2.0",
     "browserify": "13.0.0",
     "gulp": "3.9.1",
+    "lite-server": "2.1.0",
+    "pipeline-handyman": "1.0.0",
     "pipeline-validate-js": "1.0.0-rc",
     "vinyl-source-stream": "1.1.0"
   }
