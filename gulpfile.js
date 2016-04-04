@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var validatePipeline = require('pipeline-validate-js');
 
 gulp.task('lint', function() {
-  return gulp.src(['!./config.js', './*.js'])
+  return gulp.src(['!./config.js', './gulpfile.js'])
     .pipe(validatePipeline.validateJS());
 });
 

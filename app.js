@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CartItem from 'cart-item.jsx!';
+import CartItem from 'cart-item';
 
 const order = {
   title: 'Fresh fruits package',
